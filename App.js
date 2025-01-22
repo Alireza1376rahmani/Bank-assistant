@@ -1,10 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import VoiceRecorder from "./components/VoiceRecorder";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Text</Text>
+      <VoiceRecorder />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
